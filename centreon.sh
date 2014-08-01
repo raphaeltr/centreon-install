@@ -6,23 +6,23 @@
 
 # Variables
 ## Versions
-CLIB_VER="1.2.0"
-CONNECTOR_VER="1.0.2"
-ENGINE_VER="1.3.7"
+CLIB_VER="1.4.0"
+CONNECTOR_VER="1.0.3"
+ENGINE_VER="1.4.4"
 PLUGIN_VER="2.0.3"
 BROKER_VER="2.6.2"
 CENTREON_VER="2.5.1"
-CLAPI_VER="1.5.2"
+CLAPI_VER="1.6.0"
 # MariaDB Series
 MARIADB_VER='5.5'
 ## Sources URL
-CLIB_URL="http://download.centreon.com/index.php?id=4299"
-CONNECTOR_URL="http://download.centreon.com/index.php?id=4305"
-ENGINE_URL="http://download.centreon.com/index.php?id=4310"
+CLIB_URL="http://download.centreon.com/centreon-clib/centreon-clib-${CLIB_VER}.tar.gz"
+CONNECTOR_URL="http://download.centreon.com/centreon-connectors/centreon-connector-${CONNECTOR_VER}.tar.gz"
+ENGINE_URL="http://download.centreon.com/centreon-engine/centreon-engine-${ENGINE_VER}.tar.gz"
 PLUGIN_URL="http://www.nagios-plugins.org/download/nagios-plugins-${PLUGIN_VER}.tar.gz"
-BROKER_URL="http://download.centreon.com/index.php?id=4315"
-CENTREON_URL="http://download.centreon.com/index.php?id=4314"
-CLAPI_URL="http://download.centreon.com/index.php?id=4296"
+BROKER_URL="http://download.centreon.com/centreon-broker/centreon-broker-${BROKER_VER}.tar.gz"
+CENTREON_URL="http://download.centreon.com/centreon/centreon-${CENTREON_VER}.tar.gz"
+CLAPI_URL="http://download.centreon.com/Modules/CLAPI/centreon-clapi-${CLAPI_VER}.tar.gz"
 ## Temp install dir
 DL_DIR="/usr/local/src"
 ## Install dir
